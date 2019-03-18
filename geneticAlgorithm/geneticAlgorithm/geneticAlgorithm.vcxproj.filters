@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\algorytm">
+      <UniqueIdentifier>{2eafde60-9174-4ff7-8e08-8228bbd5655d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\algorytm">
+      <UniqueIdentifier>{0a9ee04c-5167-4cb9-a519-17f4deef8d63}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\menu">
+      <UniqueIdentifier>{79e3cfb4-2a92-4f18-9730-10f75458a520}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki źródłowe\menu">
+      <UniqueIdentifier>{7862d991-04c2-4f12-a8df-e62b17d62072}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CGeneticAlgorithm.h">
+      <Filter>Pliki nagłówkowe\algorytm</Filter>
+    </ClInclude>
+    <ClInclude Include="CKnapsackProblem.h">
+      <Filter>Pliki nagłówkowe\algorytm</Filter>
+    </ClInclude>
+    <ClInclude Include="CProblem.h">
+      <Filter>Pliki nagłówkowe\algorytm</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommand.h">
+      <Filter>Pliki nagłówkowe\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstansMenu.h">
+      <Filter>Pliki nagłówkowe\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuItems.h">
+      <Filter>Pliki nagłówkowe\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CMenuTree.h">
+      <Filter>Pliki nagłówkowe\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.h">
+      <Filter>Pliki nagłówkowe\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="CManager.h">
+      <Filter>Pliki nagłówkowe\menu</Filter>
+    </ClInclude>
+    <ClInclude Include="ConstansAlgorithm.h">
+      <Filter>Pliki nagłówkowe\algorytm</Filter>
+    </ClInclude>
+    <ClInclude Include="CCommandDerived.h">
+      <Filter>Pliki nagłówkowe\menu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CGeneticAlgorithm.cpp">
+      <Filter>Pliki źródłowe\algorytm</Filter>
+    </ClCompile>
+    <ClCompile Include="CKnapsackProblem.cpp">
+      <Filter>Pliki źródłowe\algorytm</Filter>
+    </ClCompile>
+    <ClCompile Include="Main.cpp">
+      <Filter>Pliki źródłowe\algorytm</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommand.cpp">
+      <Filter>Pliki źródłowe\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuItems.cpp">
+      <Filter>Pliki źródłowe\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CMenuTree.cpp">
+      <Filter>Pliki źródłowe\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="Util.cpp">
+      <Filter>Pliki źródłowe\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CManager.cpp">
+      <Filter>Pliki źródłowe\menu</Filter>
+    </ClCompile>
+    <ClCompile Include="CCommandDerived.cpp">
+      <Filter>Pliki źródłowe\menu</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
