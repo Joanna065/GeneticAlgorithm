@@ -1,3 +1,3 @@
 # GeneticAlgorithm
-ffProject contains very simple idea of genetic algorithm w/o any particular optimalization.
+Project contains very simple idea of genetic algorithm w/o any particular optimalization.
 Written in C++
